@@ -1,0 +1,327 @@
+/*
+==============
+GLOBLE STYLES
+==============
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Dosis', sans-serif; 
+}
+h1{
+	font-size: 3em;
+}
+h3{
+	font-size: 2em;
+}
+h6{
+	font-size: 1em;
+}
+/*
+============
+HERO SECTION
+============
+*/
+.hero{
+	background: linear-gradient(to bottom right, #2196F3, #009688);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+/*
+============
+NAVIGATION BAR
+============
+*/
+.menu{
+	height: 40px;
+	background-color: yellow;
+}
+.menu ul{
+	text-align: center;
+}
+.menu ul li{
+	display: inline;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 20px 0px 20px;
+}
+/*
+=============
+SERVICES SECTION
+=============
+*/
+.services{
+	width: 100%;
+	background-color: hsl(0, 0%, 95%);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.col-wrapper{
+	width: 90%;
+	margin: auto;
+	padding-top: 50px;
+}
+.services-col{
+	width: 33.33%;
+	float: left;
+	padding: 10px, 30px, 10px, 30px;
+}
+.services-col img{
+	width: 80px;
+	max-width: 100%;
+}
+.col-wrapper::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.services-content{
+	padding: 0px, 100px, 0px, 100px;
+}
+/*
+===============
+ABOUT US SECTION
+===============
+*/
+.aboutus{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	background-image: url(aboutusimg.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+.aboutus-content{
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	font-size: 1.1em;
+}
+.about-btn{
+	background: rgba(0,0,0,0.01);
+	padding: 10px;
+	margin-top: 30px;
+	border: none;
+	outline: 2px solid red;
+	cursor: pointer;
+	color: blue;
+}
+/*
+===============
+OUR TEAM SECTION
+===============
+*/
+.team{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: hsl(0, 0%, 95%);
+	text-align: center;
+	width: 100%;
+}
+.team-wrapper{
+	width: 90%;
+	padding-top: 50px;
+	margin: auto;
+
+}
+.col-team{
+	width: 20%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+}
+
+.col-team img{
+	width: 80px;
+	max-width: 100%;
+}
+.col{
+	max-width: 200px;
+	max-height: 170px;
+}
+.team-wrapper::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+/*
+===============
+CONTACT SECTION
+===============
+*/
+.contact{
+	width: 100%;
+	height: 150px;
+	background-color: yellow;
+}
+.cta-col{
+	width: 33.33%;
+	float: left;
+	padding: 10px 30px 10px 30px;
+	text-align: center;
+	color: rgba(0,0,0,0.55);
+	margin-top: 15px; 
+}
+.cta-col img{
+	width: 80px;
+	max-width: 100%;
+}
+/*
+===================
+FORM SECTION MAIN
+===================
+*/
+.form{
+	width: 100%;
+	padding: 30px 5px 30px 5px;
+	text-align: center;
+	background-color: hsl(0, 0%, 95%);
+}
+
+.form::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.form-col1{
+	width: 35%;
+	padding: 30px 5px 30px 5px;
+	float: left;
+}
+
+.form-col2{
+	width: 65%;
+	padding: 30px 5px 30px 5px;
+	float: left;
+	padding-right: 10%;
+	text-align: left;
+}
+.form-col1 img{
+	width: 60%;
+	max-width: 100%;
+}
+/*
+=================
+Form Styles
+=================
+*/
+.form-col{
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+.fname, .femail{
+	width: 100%;
+	height: 35px;
+	padding: 0px 5px 0px 5px;
+	outline: none;
+	background-color: white;
+	border: none;
+}
+.area{
+	width: 100%;
+	height: 250px;
+	border: none;
+	outline: none;
+}
+.sendbtn{
+	background-color: lightblue;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	border: none;
+	outline: 1px solid black;
+	cursor: pointer;
+}
+.top-btn{
+	background-color: lightblue;
+	padding: 10px 30px 10px 30px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: none;
+	outline: 1px solid black;
+	cursor: pointer;
+}
+/*
+==============
+FOOTER STYLES
+==============
+*/
+
+.footer{
+	background-color: #1b181f;
+	color: #eee;
+	width: 100%;
+	padding: 50px 50px 50px 50px;
+}
+.footer::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.footer h2{
+	color: #fff;
+	margin-top: 30px;
+}
+.footer-col{
+    width: 33.33%;
+    float: left;
+    padding: 5px 10px 5px 10px;
+}
+/*
+================
+MEDIA QUERIES
+================
+*/
+@media screen and (max-width: 500px){
+	.services-col{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.col-team{
+		width: 100%;
+		padding-top: 100px;
+	}
+	.cta-col{
+		width: 100%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+	.contact{
+		widows: 100%;
+		height: 550px;
+	}
+	.form-col1{
+		width: 100%;
+	}
+	.form-col2{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.footer-col{
+        width: 100%;
+	}
+	.hero{
+		width: 100%;
+		text-align: center;
+	}
+	.menu{
+		height: 80px;
+	}
+
+}
